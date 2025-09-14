@@ -16,7 +16,7 @@ checkButton.addEventListener("click",function(){
             console.log("hasAadharCard");
             alert("please come inside the bus");
         }else{console.log("but you dont have AadharCard");
- /*passengerStatus.textContent="seat is Available,age above50,but you dont have AadharCard";*/
+ passengerStatus.textContent="seat is Available,age above50,but you dont have AadharCard";
 document.getElementById('message').innerText="seat is Available,age above50,but you dont have AadharCard"}         }
         else{
     console.log("but your age is below 50 years");
@@ -24,5 +24,6 @@ document.getElementById('message').innerText="seat is Available,age above50,but 
 else {
     console.log("seat is not available");
     passengerStatus.textContent="seat is not Available";}});
+
 
 
